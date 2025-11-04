@@ -1,5 +1,4 @@
-<script type="text/javascript">
-      window.addEventListener("keydown", async (e) => {
+  window.addEventListener("keydown", async (e) => {
         if (e.ctrlKey && 83 == e.which) return e.preventDefault(), !1;
       }),
         window.addEventListener("contextmenu", (e) => e.preventDefault()),
@@ -160,5 +159,5 @@
         el.style.display = "none";
         el.textContent = "";
       }
-    </script>
+   
    
